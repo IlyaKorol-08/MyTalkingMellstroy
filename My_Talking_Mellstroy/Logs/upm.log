@@ -1,0 +1,83 @@
+[2026-07-09T20:11:46.230Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 5252 --ipc-path Unity-Upm-5252 -l 2 --log-file C:\\Users\\IlyaKing\\Desktop\\MyTalkingMellstroy\\My_Talking_Mellstroy/Logs/upm.log
+[2026-07-09T20:11:46.277Z][INFO] IPC server started (IPC path=Unity-Upm-5252).
+[2026-07-09T20:11:46.277Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-5252.
+[2026-07-09T20:12:05.221Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:12:05.310Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:12:05.322Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-09T20:12:05.340Z][INFO] config:project:get-registries --> 200 (18 ms)
+[2026-07-09T20:12:05.420Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-07-09T20:12:05.527Z][INFO] project:update-dependencies --> 200 (107 ms)
+[2026-07-09T20:12:05.577Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-07-09T20:12:05.584Z][INFO] project:list-packages --> 200 (363 ms)
+[2026-07-09T20:12:05.699Z][INFO] project:list-packages --> 200 (389 ms)
+[2026-07-09T20:12:59.830Z][WARN] Requested version [17.6.0] for package [com.unity.render-pipelines.universal] overridden by built-in package version [17.5.0].
+[2026-07-09T20:12:59.830Z][WARN] Requested version [4.9.3] for package [com.unity.searcher] overridden by minimum version [4.9.4].
+[2026-07-09T20:12:59.830Z][WARN] Requested version [1.8.14] for package [com.unity.burst] overridden by minimum version [1.8.29].
+[2026-07-09T20:12:59.830Z][WARN] Requested version [3.2.0] for package [com.unity.test-framework.performance] overridden by minimum version [3.5.0].
+[2026-07-09T20:12:59.832Z][INFO] project:resolve-packages --> 200 (54255 ms)
+[2026-07-09T20:14:07.881Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:14:07.927Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:14:08.294Z][INFO] project:list-packages --> 200 (413 ms)
+[2026-07-09T20:14:08.346Z][INFO] project:list-packages --> 200 (419 ms)
+[2026-07-09T20:14:08.889Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:14:09.113Z][INFO] project:list-packages --> 200 (223 ms)
+[2026-07-09T20:14:09.175Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-09T20:14:09.180Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-07-09T20:15:46.524Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-09T20:15:46.761Z][INFO] project:list-packages --> 200 (237 ms)
+[2026-07-09T20:15:47.458Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-07-09T20:15:47.475Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-07-09T20:16:07.244Z][INFO] packages:get-all-packageinfo --> 200 (19769 ms)
+[2026-07-09T20:16:10.653Z][INFO] packages:get-all-packageinfo --> 200 (23195 ms)
+[2026-07-09T20:16:20.248Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.addressables@2.9.1"
+}
+[2026-07-09T20:16:20.264Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ads.ios-support@1.0.1"
+}
+[2026-07-09T20:16:20.278Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework@5.0.4"
+}
+[2026-07-09T20:16:20.293Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework.authoring@1.5.4"
+}
+[2026-07-09T20:16:20.308Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@2.6.1"
+}
+[2026-07-09T20:16:20.402Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-07-09T20:16:20.416Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-07-09T20:16:20.431Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.management@4.5.4"
+}
+[2026-07-09T20:16:20.730Z][INFO] packages:get-packageinfo --> 200 (328 ms)
+[2026-07-09T20:16:20.733Z][INFO] packages:get-packageinfo --> 200 (317 ms)
+[2026-07-09T20:16:20.739Z][INFO] packages:get-packageinfo --> 200 (446 ms)
+[2026-07-09T20:16:20.740Z][INFO] packages:get-packageinfo --> 200 (476 ms)
+[2026-07-09T20:16:20.743Z][INFO] packages:get-packageinfo --> 200 (435 ms)
+[2026-07-09T20:16:20.746Z][INFO] packages:get-packageinfo --> 200 (468 ms)
+[2026-07-09T20:16:20.752Z][INFO] packages:get-packageinfo --> 200 (504 ms)
+[2026-07-09T20:16:20.927Z][INFO] packages:get-packageinfo --> 200 (496 ms)
