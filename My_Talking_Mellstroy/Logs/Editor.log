@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.3f1 (c2eb47b3a2a9) revision 12774215'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing" at "2026-07-10T07:29:01.4339091Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 14227 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing" at "2026-07-10T09:33:19.869928Z"
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T07:29:01Z
+Date: 2026-07-10T09:33:19Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ production
 -licensingIpc
 LicenseClient-IlyaKing
 -hubSessionId
-725da700-bb68-427f-865d-251fb3bd2234
+cc582464-c97a-4293-9595-33ee65b13aad
 -accessToken
-EHrhHgJubA18EgiLSe_cDp6y5Prz-35HiZFSvID0KVo009f
+uOeHR2Y_2BDPGw3Os_iJr2RtFNoWv30Y0z62UGS5mcw009f
 Successfully changed project path to: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
 C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -60,18 +60,18 @@ C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [25128]  Target information:
+Player connection [18484]  Target information:
 
-Player connection [25128]  * "[IP] 192.168.0.11 [Port] 55504 [Flags] 2 [Guid] 1024179143 [EditorId] 1024179143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18484]  * "[IP] 192.168.0.11 [Port] 55504 [Flags] 2 [Guid] 4288834644 [EditorId] 4288834644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25128]  * "[IP] 192.168.137.1 [Port] 55504 [Flags] 2 [Guid] 1024179143 [EditorId] 1024179143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18484]  * "[IP] 192.168.137.1 [Port] 55504 [Flags] 2 [Guid] 4288834644 [EditorId] 4288834644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25128] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25128] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18484] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-20288" after 0.4 seconds.
+[Package Manager] Connected to IPC stream "Upm-24064" after 0.3 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
@@ -79,23 +79,23 @@ Input System module state changed to: Initialized.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-IlyaKing"
 [Licensing::IpcConnector] LicenseClient-IlyaKing channel disconnected successfully.
 [Licensing::IpcConnector] Channel LicenseClient-IlyaKing-6000.5.3 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 24744)
+[Licensing::Module] Successfully launched the LicensingClient (PId: 20968)
 Starting IPC server.
 Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-IlyaKing-6000.5.3, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3" at "2026-07-10T07:29:03.1058982Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24744, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3" at "2026-07-10T09:33:21.4851787Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20968, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              0f56f43b34a4471b8309357f1ba332da
-  Correlation Id:          4949fbbee2f5a26867fe6d2443fcff2f
-  External correlation Id: 4407989646068362001
+  Session Id:              09ec514961974649b403b51c38288a84
+  Correlation Id:          ac588ecf5739775dae058a4524167e3d
+  External correlation Id: 7059471489661386273
   Machine Id:              fRmInWLrjOgrKjn1piGFsZlAubw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-IlyaKing-6000.5.3" (connect: 0.37s, validation: 0.30s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3-notifications" at "2026-07-10T07:29:03.4126653Z"
-[Licensing::Module] Connected to LicensingClient (PId: 24744, launch time: 0.01, total connection time: 0.68s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-IlyaKing-6000.5.3" (connect: 0.37s, validation: 0.25s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3-notifications" at "2026-07-10T09:33:21.7449623Z"
+[Licensing::Module] Connected to LicensingClient (PId: 20968, launch time: 0.01, total connection time: 0.63s)
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token EHrhHgJubA...
+[Licensing::Module] Successfully updated the access token uOeHR2Y_2B...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 10171549892880-UnityPersXXXX
@@ -104,8 +104,8 @@ Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-IlyaKing-6000.5.3
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 2.04s
-[Licensing::Module] Licensing is initialized (took 1.50s).
+[Licensing::Module] Licensing Background thread has ended after 1.94s
+[Licensing::Module] Licensing is initialized (took 1.45s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -116,7 +116,6 @@ Library Redirect Path: Library/
 [Physics::Module] Threading Mode: Multi-Threaded
 Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
-Artifact Garbage Collection - Removed 1 unused hashed content files
 [Licensing::Client] Successfully resolved entitlement details
 Got setting from build profile YAML, name `m_BuildTarget`, value `13`
 Got setting from build profile YAML, name `m_Subtarget`, value `0`
@@ -147,7 +146,7 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -159,7 +158,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.006525 seconds.
+Registered in 0.006729 seconds.
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
@@ -172,23 +171,23 @@ Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.471 seconds
-Domain Reload Profiling: 1110ms
-	BeginReloadAssembly (169ms)
-		CreateAndSetChildDomain (21ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (151ms)
+		CreateAndSetChildDomain (7ms)
 	RebuildCommonClasses (6ms)
 	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (360ms)
-		LoadAssemblies (145ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (240ms)
-	FinalizeReload (473ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (141ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (243ms)
+	FinalizeReload (482ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (74ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (109ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (115ms)
 			ProcessInitializeOnLoadMethodAttributes (103ms)
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
@@ -280,7 +279,7 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 32.1053ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 31.8381ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
@@ -298,104 +297,141 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 70.2924ms
-ExitCode: 0 Duration: 0s594ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 64.8409ms
+ExitCode: 0 Duration: 0s438ms
 [ 863/1107  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.54 seconds), 1 items updated, 1107 evaluated
-AssetDatabase: script compilation time: 1.146636s
+*** Tundra build success (0.40 seconds), 1 items updated, 1107 evaluated
+AssetDatabase: script compilation time: 0.956163s
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 5.45 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.01 ms, found 5 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.85 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.99 ms, found 5 plugins.
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.903 seconds
-Domain Reload Profiling: 5249ms
-	BeginReloadAssembly (377ms)
-		DisableScriptedObjects (34ms)
-		CreateAndSetChildDomain (146ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (837ms)
-		LoadAssemblies (480ms)
-		AnalyzeDomain (340ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (217ms)
-			BuildScriptInfoCaches (95ms)
+- Finished resetting the current domain, in  3.840 seconds
+Domain Reload Profiling: 5193ms
+	BeginReloadAssembly (394ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (175ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (835ms)
+		LoadAssemblies (455ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (99ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (3904ms)
+	FinalizeReload (3842ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (3008ms)
-			ProcessInitializeOnLoadMethodAttributes (508ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (3007ms)
+			ProcessInitializeOnLoadMethodAttributes (429ms)
 			AfterProcessingInitializeOnLoad (8ms)
 		AwakeInstancesAfterBackupRestoration (26ms)
 Starting new worker id: 0 with log in C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=25eb61076425ed147836ed7c343b286d): Total: 7.393 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=d30c9791728b1374289c21df67d66cc3): Total: 7.126 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=4651 ms
-		Asset DB Callback time: managed=45 ms, native=29 ms
-		Scripting: domain reloads=1, domain reload time=1437 ms, compile time=1148 ms, other=79 ms
-		Project Asset Count: scripts=1566, non-scripts=3213
+		Asset DB Process Time: managed=0 ms, native=4565 ms
+		Asset DB Callback time: managed=47 ms, native=31 ms
+		Scripting: domain reloads=1, domain reload time=1443 ms, compile time=958 ms, other=81 ms
+		Project Asset Count: scripts=1566, non-scripts=3215
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 33.298ms
-	ApplyChangesToAssetFolders: 0.970ms
-	Scan: 145.387ms
-	Collect global state as custom dependencies: 10.305ms
-	CategorizeScriptCompilationAssets: 76.656ms
-	ProcessAssetsWithTransientArtifactChanges: 107.003ms
-	CategorizeAssets: 72.128ms
-	CompileScripts: 1148.467ms
-	ImportOutOfDateAssets: 4027.927ms (3935.331ms without children)
-		UnloadImportedAssets: 0.848ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.907ms
-		ImportSchedulerStart: 90.798ms
-	PostProcessAllAssets: 45.155ms
-		MonoPostProcessAllAssets: 45.080ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 14.755ms
-			SyncVS.PostprocessSyncProject 5.921ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.193ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.648ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.332ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.985ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.563ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.540ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.500ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.400ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.331ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.212ms
-	UnloadStreamsBegin: 3.680ms
-	PersistCurrentRevisions: 0.122ms
-	GenerateScriptTypeHashes: 2.788ms
-	GenerateScriptTypeSerializationHashes: 5.292ms
-	Untracked: 1712.251ms
+	InvokePackagesCallback: 34.170ms
+	ApplyChangesToAssetFolders: 0.985ms
+	Scan: 147.689ms
+	Collect global state as custom dependencies: 5.245ms
+	CategorizeScriptCompilationAssets: 82.003ms
+	ProcessAssetsWithTransientArtifactChanges: 106.975ms
+	CategorizeAssets: 80.743ms
+	CompileScripts: 957.847ms
+	ImportOutOfDateAssets: 3942.521ms (3869.018ms without children)
+		UnloadImportedAssets: 0.812ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.861ms
+		ImportSchedulerStart: 71.788ms
+	PostProcessAllAssets: 47.231ms
+		MonoPostProcessAllAssets: 47.158ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 16.345ms
+			SyncVS.PostprocessSyncProject 4.966ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.394ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.249ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.437ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.957ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.667ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.522ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.362ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.332ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.320ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.226ms
+	UnloadStreamsBegin: 4.153ms
+	PersistCurrentRevisions: 0.123ms
+	GenerateScriptTypeHashes: 3.337ms
+	GenerateScriptTypeSerializationHashes: 6.578ms
+	Untracked: 1708.714ms
 
 Application.AssetDatabase Initial Refresh End
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Scanning for USB devices : 13.379ms
+Scanning for USB devices : 14.514ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-My_Talking_Mellstroy
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: V (86) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: l (108) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: k (107) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: u (117) to any virtual key
 Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            16.116 ms
-	Integration:            383.853 ms
-	Integration of assets:  1.965 ms
-	Thread Wait Time:       0.728 ms
-	Total Operation Time:   402.661 ms
-Worker ready: AssetImportWorkerHW0 0
-Unloading 7205 unused Assets / (7.1 MB). Loaded Objects now: 8165.
-Memory consumption went from 442.6 MB to 435.5 MB.
-Total: 19.530900 ms (FindLiveObjects: 1.061300 ms CreateObjectMapping: 3.058600 ms MarkObjects: 11.137400 ms  DeleteObjects: 4.270600 ms)
+Loaded scene 'Assets/Scenes/Kipr.unity'
+	Deserialize:            12.860 ms
+	Integration:            300.111 ms
+	Integration of assets:  2.369 ms
+	Thread Wait Time:       0.846 ms
+	Total Operation Time:   316.186 ms
+Unloading 7205 unused Assets / (6.8 MB). Loaded Objects now: 8184.
+Memory consumption went from 436.7 MB to 429.9 MB.
+Total: 16.310000 ms (FindLiveObjects: 1.114300 ms CreateObjectMapping: 2.845500 ms MarkObjects: 8.309800 ms  DeleteObjects: 4.037400 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 [LAYOUT] About to save layout C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
@@ -406,116 +442,73 @@ This project uses Input Manager, which is marked for deprecation. To manage inpu
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-[Project] Loading completed in 17.034 seconds
-	Project init time: 				12.478 seconds
+[Project] Loading completed in 15.229 seconds
+	Project init time: 				11.969 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		1.857 seconds
-		Asset Database init time: 		0.495 seconds
+		Package Manager init time: 		1.761 seconds
+		Asset Database init time: 		0.355 seconds
 		Global illumination init time: 	0.002 seconds
-		Assemblies load time: 			1.172 seconds
-		Unity extensions init time: 	0.049 seconds
-		Asset Database refresh time: 	7.393 seconds
-	Scene opening time: 			4.368 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783668558457,"processId":20288,"projectLoad":17.0340667,"projectInit":12.4780998,"templateInit":0.0,"packageManagerInit":1.8574736,"assetDatabaseInit":0.495437,"globalIlluminationInit":0.0022693,"assembliesLoad":1.1719749,"unityExtensionsInit":0.0493395,"assetDatabaseRefresh":7.3929708,"sceneOpening":4.3684569}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783668558457,"processId":20288,"editorVersion":"6000.5.3f1 (c2eb47b3a2a9)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=d5ed8422183afd8459ada363290b5ca0): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+		Assemblies load time: 			1.165 seconds
+		Unity extensions init time: 	0.048 seconds
+		Asset Database refresh time: 	7.127 seconds
+	Scene opening time: 			3.082 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783676015087,"processId":24064,"projectLoad":15.2288145,"projectInit":11.9688163,"templateInit":0.0,"packageManagerInit":1.7611373,"assetDatabaseInit":0.3550592,"globalIlluminationInit":0.0023938,"assembliesLoad":1.1647754,"unityExtensionsInit":0.0477731,"assetDatabaseRefresh":7.1267686,"sceneOpening":3.0818445}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783676015087,"processId":24064,"editorVersion":"6000.5.3f1 (c2eb47b3a2a9)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Asset Pipeline Refresh (id=c55029b3e37936d44a6be691f9734a7c): Total: 0.167 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/IlyaKing/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.024s, timestamps: [18.698 - 18.722]
+Created GICache directory at C:/Users/IlyaKing/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.026s, timestamps: [15.420 - 15.446]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "EHrhHgJu"... (expires: 2026-07-10T08:50:07Z)
+[Licensing::Module] Successfully updated access token: "uOeHR2Y_"... (expires: 2026-07-10T10:49:43Z)
 [Licensing::Client] Successfully resolved entitlement details
-Android Extension - Scanning For ADB Devices 2266 ms
-Android Extension - Scanning For ADB Devices 217 ms
-UPID Received '31959c1e-8824-4b36-aa93-33b06d99f255'.
+Android Extension - Scanning For ADB Devices 2243 ms
+Android Extension - Scanning For ADB Devices 215 ms
 Attempted to call .Dispose on an already disposed CancellationTokenSource
-Android Extension - Scanning For ADB Devices 212 ms
-Android Extension - Scanning For ADB Devices 199 ms
-SpriteAtlasPacking completed in 0.005777 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            15.826 ms
-	Integration:            412.157 ms
-	Integration of assets:  0.090 ms
-	Thread Wait Time:       -0.006 ms
-	Total Operation Time:   428.066 ms
+Android Extension - Scanning For ADB Devices 193 ms
+UPID Received '31959c1e-8824-4b36-aa93-33b06d99f255'.
+Android Extension - Scanning For ADB Devices 191 ms
 TrimDiskCacheJob: Current cache size 0mb
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
 Starting new worker id: 1 with log in C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW1.log
-Starting new worker id: 2 with log in C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW2.log
-[Worker0] Imported GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/Settings/DefaultVolumeProfile.asset - Importer: PreviewImporter -> (ImportResultId: 'bee499dc0ae385423929d85d48c3d85f') in 0.0482571 seconds
-[Worker0] Imported GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: PreviewImporter -> (ImportResultId: 'fe34666ad6b7db4974e8a8f8ff9a2474') in 0.0244821 seconds
-[Worker0] Imported GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: PreviewImporter -> (ImportResultId: '2f11ea83914297f44d29aabb8f34dac2') in 0.146824 seconds
-[Worker0] Imported GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: PreviewImporter -> (ImportResultId: 'd0268fa9d5515aa7e95fb1fc666ae6b8') in 0.0215238 seconds
-[Worker0] Imported GUID: 2bcd2660ca9b64942af0de543d8d7100 - Path: Assets/Settings/InputSystem_Actions.inputactions - Importer: PreviewImporter -> (ImportResultId: 'e5f1a999ba8b0ac306078eea0d17f302') in 0.024317 seconds
-[Worker0] Imported GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: PreviewImporter -> (ImportResultId: 'a30c7c4d00f84d506e27cc40053b4315') in 0.0195537 seconds
-Worker ready: AssetImportWorkerHW2 2
+[Worker0] Imported GUID: 109e9bdd0fcc649c5bc59085c35bdc83 - Path: Assets/Scenes - Importer: PreviewImporter -> (ImportResultId: '101fdcffec55c7bdff9e25d31f802448') in 0.0258041 seconds
+[Worker0] Imported GUID: 0220aab0833d04faeb927d84ca6cc40c - Path: Assets/Settings - Importer: PreviewImporter -> (ImportResultId: '620fe1d07e22aede09d33f57beba5d46') in 0.016271 seconds
+[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: '6369b197714f4eabc0138e4258f24438') in 0.1330614 seconds
 Worker ready: AssetImportWorkerHW1 1
-[Worker2] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: PreviewImporter -> (ImportResultId: '73dcbd8bf857e9c4ab992a54e638ce81') in 0.0223351 seconds
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+Request Asset Garbage Collect because used heap size increased from 434.7 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (17.2 MB). Loaded Objects now: 9393.
+Memory consumption went from 0.67 GB to 0.66 GB.
+Total: 23.790500 ms (FindLiveObjects: 0.745000 ms CreateObjectMapping: 1.332200 ms MarkObjects: 15.942000 ms  DeleteObjects: 5.769400 ms)
+
 Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity' with importer (DefaultImporter)
-Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '0dfb41d1c46b69a1f0deabe9d339a9b5') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=dac0adfaf570de8cf9b9a023b5e20b41 DependenciesID=a310800e8229b8e98b317c63c6eda794 StaticDependenciesID=c4eb918f0b5eff774edc02f88fb9d812 
-Refreshing native plugins compatible for Editor in 4.17 ms, found 5 plugins.
-Asset Pipeline Refresh (id=b99606f895c34c946807c01a65dacdc2): Total: 0.292 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker2] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: PreviewImporter -> (ImportResultId: '71d2bdf0de88e2f0e8be82f05be030e1') in 0.0152352 seconds
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.313 ms
-	Integration:            359.515 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.018 ms
-	Total Operation Time:   360.849 ms
-Unloading 90 unused Assets / (18.1 MB). Loaded Objects now: 9294.
-Memory consumption went from 0.69 GB to 0.68 GB.
-Total: 26.697900 ms (FindLiveObjects: 0.686800 ms CreateObjectMapping: 1.285900 ms MarkObjects: 17.547900 ms  DeleteObjects: 7.175500 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Worker2] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b32af010fe529755a4be05091f438891') in 0.0885967 seconds
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=d1465c13f95551f459e1f8eb73d72b95): Total: 0.026 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-SpriteAtlasPacking completed in 0.005787 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.017 ms
-	Integration:            365.160 ms
-	Integration of assets:  0.030 ms
-	Thread Wait Time:       0.025 ms
-	Total Operation Time:   366.232 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.671 ms
-	Integration:            337.010 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.023 ms
-	Total Operation Time:   337.705 ms
-Unloading 4 unused Assets / (347.6 KB). Loaded Objects now: 9319.
-Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 21.773600 ms (FindLiveObjects: 0.721000 ms CreateObjectMapping: 1.012400 ms MarkObjects: 19.880000 ms  DeleteObjects: 0.158800 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Session Token Received.
-Asset Pipeline Refresh (id=3e3eab71ab31c334a91c92be016c71ef): Total: 0.018 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-AcceleratorClientConnectionCallback - disconnected - :0
-Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'f4cc8f09f37c73f34176ac1b5f273d49') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=709700dec32bcd6a2cae214c9d5f0a87 StaticDependenciesID=ff7786567807f72ae46de3677b13860e 
-Refreshing native plugins compatible for Editor in 5.54 ms, found 5 plugins.
-Asset Pipeline Refresh (id=0e6eb3d4be8c34a4585a254766814bac): Total: 0.116 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 7c65b1766111e6a4ebf9f6b02353ae58 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
-Imported 'GUID: 7c65b1766111e6a4ebf9f6b02353ae58' -> (Import Result ID: '4757a5839f419dba20521014b852532e') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=d0bdfb34997cdf6f0f9cf358f90fca13 DependenciesID=f35dcab99413440def8a6c58cc26a79b StaticDependenciesID=abdcd59b2bacfdb8d7ae7d5b03ead7c3 
-Refreshing native plugins compatible for Editor in 3.89 ms, found 5 plugins.
-Asset Pipeline Refresh (id=e14190d03e468784fa2f52328ac23790): Total: 0.128 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-MonoPathRemapper: Attempts to remap: 54570; Successful remaps: 22874
+Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '3f31cecb867c567c3271c1c53b555dbd') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=dac0adfaf570de8cf9b9a023b5e20b41 DependenciesID=401e91ee7297ddfeda3a39023cb17324 StaticDependenciesID=5ad20343dae9bd4c430972cf663c379c 
+Refreshing native plugins compatible for Editor in 4.54 ms, found 5 plugins.
+Asset Pipeline Refresh (id=0958831030d6a02468513e88de0f899b): Total: 0.237 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd714b506e1790c52729b9624d193bd2f') in 0.0759293 seconds
+MonoPathRemapper: Attempts to remap: 57681; Successful remaps: 22874
 Serialized file version minimum: 22, current 23
 [LAYOUT] About to save layout C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/IlyaKing/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-Killing ADB server in 0,0586689 seconds.
+Killing ADB server in 0,0512193 seconds.
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
@@ -527,14 +520,10 @@ Shut down.
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000004158, mono_thread_manage will ignore it
-
-abort_threads: Failed aborting id: 0000000000004158, mono_thread_manage will ignore it
-
-debugger-agent: Unable to listen on 5012
+debugger-agent: Unable to listen on 4872
 [usbmuxd] Stop listen thread
 [usbmuxd] Listen thread exiting
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1783669063363,"processId":20288,"allocatedMemory":52802036,"memoryLabels":[{"Default":236346},{"Permanent":15516},{"NewDelete":69293},{"Thread":4205688},{"Manager":820296},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":858975},{"Material":24},{"GfxDevice":65432},{"GfxThread":1536},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":262472},{"Input":45280},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"MonoCode":384},{"ScriptingNativeRuntime":1621124},{"BaseObject":1700321},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":27773},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9749},{"StaticString":3808},{"Utility":2673402},{"PoolAlloc":2360},{"AI":80},{"TypeTree":21037},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6808},{"WebRequest":15208},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33054636},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1274512},{"CoreStats":13688},{"Identifiers":6768},{"Gui":453},{"EditorUtility":219351},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5056532},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36138},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1783676525063,"processId":24064,"allocatedMemory":52533806,"memoryLabels":[{"Default":228569},{"Permanent":15516},{"NewDelete":66893},{"Thread":4205688},{"Manager":820232},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":858975},{"Material":1424},{"GfxDevice":69464},{"GfxThread":1536},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":258504},{"Input":45280},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1620644},{"BaseObject":1678513},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":36676},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9831},{"StaticString":3808},{"Utility":2673450},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":21037},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":10616},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33084620},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1017472},{"CoreStats":13688},{"Identifiers":6768},{"Gui":496},{"EditorUtility":203694},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5055212},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35346},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

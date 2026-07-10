@@ -1,0 +1,85 @@
+[2026-07-10T08:36:22.510Z][INFO] Command-line: 'D:\\Games\\unity download\\6000.5.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 7356 --ipc-path Unity-Upm-7356 -l 2 --log-file D:\\Games\\github\\MyTalkingMellstroy/Logs/upm.log
+[2026-07-10T08:36:22.548Z][INFO] IPC server started (IPC path=Unity-Upm-7356).
+[2026-07-10T08:36:22.548Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-7356.
+[2026-07-10T08:36:34.162Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:36:34.165Z][INFO] project:list-packages --> 404 (3 ms)
+[2026-07-10T08:36:34.301Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:36:34.302Z][INFO] project:list-packages --> 404 (1 ms)
+[2026-07-10T08:36:34.321Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-10T08:36:34.323Z][INFO] config:project:get-registries --> 404 (2 ms)
+[2026-07-10T08:36:34.451Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-07-10T08:36:34.571Z][INFO] project:update-dependencies --> 200 (120 ms)
+[2026-07-10T08:36:34.605Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-07-10T08:36:35.873Z][INFO] project:resolve-packages --> 200 (1268 ms)
+[2026-07-10T08:36:46.546Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:36:46.576Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:36:46.672Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-10T08:36:46.712Z][INFO] config:project:get-registries --> 200 (41 ms)
+[2026-07-10T08:36:46.713Z][INFO] project:list-packages --> 200 (167 ms)
+[2026-07-10T08:36:46.713Z][INFO] project:list-packages --> 200 (137 ms)
+[2026-07-10T08:36:52.218Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:36:52.306Z][INFO] project:list-packages --> 200 (88 ms)
+[2026-07-10T08:37:00.883Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-07-10T08:37:00.899Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-07-10T08:37:13.449Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-07-10T08:37:13.481Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T08:37:13.569Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-10T08:37:13.861Z][INFO] config:project:get-registries --> 200 (292 ms)
+[2026-07-10T08:37:14.266Z][INFO] project:list-packages --> 200 (785 ms)
+[2026-07-10T08:37:20.148Z][INFO] packages:get-all-packageinfo --> 200 (19249 ms)
+[2026-07-10T08:37:20.485Z][INFO] packages:get-all-packageinfo --> 200 (19601 ms)
+[2026-07-10T08:37:20.488Z][INFO] packages:get-all-packageinfo --> 200 (7039 ms)
+[2026-07-10T08:37:21.245Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.addressables@2.9.1"
+}
+[2026-07-10T08:37:21.262Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ads.ios-support@1.0.1"
+}
+[2026-07-10T08:37:21.284Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework@5.0.4"
+}
+[2026-07-10T08:37:21.285Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework.authoring@1.5.4"
+}
+[2026-07-10T08:37:21.324Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@2.6.1"
+}
+[2026-07-10T08:37:21.324Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-07-10T08:37:21.325Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-07-10T08:37:21.388Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.management@4.5.4"
+}
+[2026-07-10T08:37:21.484Z][INFO] packages:get-packageinfo --> 200 (159 ms)
+[2026-07-10T08:37:21.485Z][INFO] packages:get-packageinfo --> 200 (161 ms)
+[2026-07-10T08:37:21.489Z][INFO] packages:get-packageinfo --> 200 (205 ms)
+[2026-07-10T08:37:21.489Z][INFO] packages:get-packageinfo --> 200 (227 ms)
+[2026-07-10T08:37:21.491Z][INFO] packages:get-packageinfo --> 200 (167 ms)
+[2026-07-10T08:37:21.496Z][INFO] packages:get-packageinfo --> 200 (251 ms)
+[2026-07-10T08:37:21.498Z][INFO] packages:get-packageinfo --> 200 (213 ms)
+[2026-07-10T08:37:21.502Z][INFO] packages:get-packageinfo --> 200 (114 ms)
