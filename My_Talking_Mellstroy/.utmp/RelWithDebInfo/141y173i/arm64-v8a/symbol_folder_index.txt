@@ -1,0 +1,1 @@
+C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\141y173i\obj\arm64-v8a

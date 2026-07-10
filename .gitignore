@@ -11,3 +11,8 @@ Builds/
 *.pidb
 *.booproj
 /SystemVolumeInformation
+.idea/
+.vs/
+.vscode/
+*.json
+cmake-build-*/
