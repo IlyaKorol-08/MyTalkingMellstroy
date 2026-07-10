@@ -1,29 +1,29 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.3f1 (c2eb47b3a2a9) revision 12774215'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-07-10T08:45:31.4448958Z"
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16335 MB
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 14227 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing" at "2026-07-10T09:33:19.869928Z"
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T08:45:31Z
+Date: 2026-07-10T09:33:19Z
 
 COMMAND LINE ARGUMENTS:
-D:\Games\unity download\6000.5.3f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Unity.exe
 -projectpath
-D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy
+C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-user
+LicenseClient-IlyaKing
 -hubSessionId
-bf5149e7-050c-44c2-9478-56e31cf4f83e
+cc582464-c97a-4293-9595-33ee65b13aad
 -accessToken
-4fh4hGp2yz0HLG1BuN6Fj2UR3Kma8PLcjIhK5w8jx88009f
-Successfully changed project path to: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy
-D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy
+uOeHR2Y_2BDPGw3Os_iJr2RtFNoWv30Y0z62UGS5mcw009f
+Successfully changed project path to: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
+C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -60,50 +60,52 @@ D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [17056]  Target information:
+Player connection [18484]  Target information:
 
-Player connection [17056]  * "[IP] 192.168.1.140 [Port] 55504 [Flags] 2 [Guid] 1004784555 [EditorId] 1004784555 [Version] 1048832 [Id] WindowsEditor(7,WIN-OFED1UPQ9QJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18484]  * "[IP] 192.168.0.11 [Port] 55504 [Flags] 2 [Guid] 4288834644 [EditorId] 4288834644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17056] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17056] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18484]  * "[IP] 192.168.137.1 [Port] 55504 [Flags] 2 [Guid] 4288834644 [EditorId] 4288834644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6BO2DIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18484] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-13036" after 0.3 seconds.
+[Package Manager] Connected to IPC stream "Upm-24064" after 0.3 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-user"
-[Licensing::IpcConnector] LicenseClient-user channel disconnected successfully.
-[Licensing::IpcConnector] Channel LicenseClient-user-6000.5.3 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 7664)
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-IlyaKing"
+[Licensing::IpcConnector] LicenseClient-IlyaKing channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-IlyaKing-6000.5.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 20968)
 Starting IPC server.
-Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-user-6000.5.3, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.5.3" at "2026-07-10T08:45:34.2463442Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7664, path: "D:/Games/unity download/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-IlyaKing-6000.5.3, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3" at "2026-07-10T09:33:21.4851787Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20968, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              f84695664034493bb882ec2fd4762d0c
-  Correlation Id:          51ad0bc89e79e466724ff019f61fcfa9
-  External correlation Id: 7627411379433446093
-  Machine Id:              o2Es4QinbLYZen108f1rS0TjliU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user-6000.5.3" (connect: 1.29s, validation: 0.05s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.5.3-notifications" at "2026-07-10T08:45:34.3076054Z"
-[Licensing::Module] Connected to LicensingClient (PId: 7664, launch time: 0.01, total connection time: 1.35s)
+  Session Id:              09ec514961974649b403b51c38288a84
+  Correlation Id:          ac588ecf5739775dae058a4524167e3d
+  External correlation Id: 7059471489661386273
+  Machine Id:              fRmInWLrjOgrKjn1piGFsZlAubw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-IlyaKing-6000.5.3" (connect: 0.37s, validation: 0.25s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-IlyaKing-6000.5.3-notifications" at "2026-07-10T09:33:21.7449623Z"
+[Licensing::Module] Connected to LicensingClient (PId: 20968, launch time: 0.01, total connection time: 0.63s)
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token 4fh4hGp2yz...
+[Licensing::Module] Successfully updated the access token uOeHR2Y_2B...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 10171007809649-UnityPersXXXX
+  Id: 10171549892880-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 2.90s
-[Licensing::Module] Licensing is initialized (took 2.39s).
+[Licensing::Module] Licensing Background thread has ended after 1.94s
+[Licensing::Module] Licensing is initialized (took 1.45s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -112,137 +114,156 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Artifact Garbage Collection - Removed 942 unused hashed content files
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
 Initialize engine version: 6000.5.3f1 (c2eb47b3a2a9)
-[Subsystems] Discovering subsystems at path D:/Games/unity download/6000.5.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Assets
 [D3D12 Device Filter] Vendor Name: NVIDIA
-[D3D12 Device Filter] Device Name: NVIDIA GeForce GTX 1060 6GB
-[D3D12 Device Filter] Driver Version: 32.0.15.6603
+[D3D12 Device Filter] Device Name: NVIDIA GeForce GTX 1660 SUPER
+[D3D12 Device Filter] Driver Version: 32.0.16.1062
 [D3D12 Device Filter] Feature Level: 12.1
-[D3D12 Device Filter] Graphics Memory: 6029 MB
-[D3D12 Device Filter] Processor Count: 6
+[D3D12 Device Filter] Graphics Memory: 5966 MB
+[D3D12 Device Filter] Processor Count: 12
 [D3D12 Device Filter] Device Type: Discrete
 GfxDevice: creating device client; kGfxThreadingModeSplitJobs
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce GTX 1060 6GB (ID=0x1c06)
+    Renderer:        NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:          NVIDIA
-    VRAM:            6029 MB
-    App VRAM Budget: 5261 MB
-    Driver:          32.0.15.6603
+    VRAM:            5966 MB
+    App VRAM Budget: 5198 MB
+    Driver:          32.0.16.1062
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Initialize mono
-Mono path[0] = 'D:/Games/unity download/6000.5.3f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Games/unity download/6000.5.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'D:/Games/unity download/6000.5.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Games/unity download/6000.5.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Games/unity download/6000.5.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Games/unity download/6000.5.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002300 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006729 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.469 seconds
-Domain Reload Profiling: 1167ms
-	BeginReloadAssembly (205ms)
-		CreateAndSetChildDomain (9ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (151ms)
+		CreateAndSetChildDomain (7ms)
 	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (378ms)
-		LoadAssemblies (196ms)
-		AnalyzeDomain (283ms)
-			TypeCache.Refresh (281ms)
-				TypeCache.ScanAssembly (262ms)
-	FinalizeReload (473ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (141ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (243ms)
+	FinalizeReload (482ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+[Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 65 packages:
   Packages from [https://packages.unity.com]:
-    com.unity.2d.animation@15.1.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
-    com.unity.2d.aseprite@5.0.3 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
-    com.unity.2d.psdimporter@14.0.3 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
-    com.unity.2d.spriteshape@15.0.3 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
-    com.unity.2d.tilemap.extras@8.0.3 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
-    com.unity.2d.tooling@3.0.1 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
-    com.unity.collab-proxy@2.12.4 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
-    com.unity.ide.rider@3.0.38 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
-    com.unity.ide.visualstudio@2.0.26 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
-    com.unity.inputsystem@1.19.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
-    com.unity.timeline@1.8.12 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.timeline@8cd8509afae5)
-    com.unity.visualscripting@1.9.11 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
-    com.unity.2d.common@14.0.1 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
-    com.unity.searcher@4.9.4 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.searcher@d45a78918735)
-    com.unity.burst@1.8.29 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
-    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
-    com.unity.test-framework.performance@3.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+    com.unity.2d.animation@15.1.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.collab-proxy@2.12.4 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.2d.common@14.0.1 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.4 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
   Built-in packages:
-    com.unity.2d.sprite@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
-    com.unity.2d.tilemap@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tilemap@592c6ccaefe1)
-    com.unity.multiplayer.center@1.0.1 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
-    com.unity.render-pipelines.universal@17.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.universal@276396f56b3f)
-    com.unity.test-framework@1.7.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.test-framework@1405238725ab)
-    com.unity.ugui@2.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ugui@377fd60ad87b)
-    com.unity.modules.accessibility@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tilemap@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.ui@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.ext.nunit@2.1.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
-    com.unity.render-pipelines.core@17.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.core@0733e3164aa3)
-    com.unity.shadergraph@17.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.shadergraph@8aa9acb51790)
-    com.unity.render-pipelines.universal-config@17.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
-    com.unity.mathematics@1.4.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.mathematics@981956d94fb6)
-    com.unity.collections@6.5.0 (location: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.collections@a43cabe808ca)
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.2d.tilemap@592c6ccaefe1)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.universal@276396f56b3f)
+    com.unity.test-framework@1.7.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ugui@377fd60ad87b)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.core@0733e3164aa3)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.shadergraph@8aa9acb51790)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.mathematics@1.4.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+    com.unity.collections@6.5.0 (location: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\Library\PackageCache\com.unity.collections@a43cabe808ca)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.02 seconds
+[Package Manager] Done registering packages in 0.03 seconds
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:80
 info: Microsoft.Hosting.Lifetime[0]
@@ -250,7 +271,7 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production
 info: Microsoft.Hosting.Lifetime[0]
-      Content root path: D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy
+      Content root path: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
@@ -258,17 +279,17 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 33.6690ms
-Starting: D:\Games\unity download\6000.5.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 31.8381ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "D:\Games\unity download\6000.5.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "D:\Games\unity download\6000.5.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
-      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "D:\Games\unity download\6000.5.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "D:\Games\unity download\6000.5.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
 info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
 info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
@@ -276,89 +297,89 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 48.8852ms
-ExitCode: 0 Duration: 0s491ms
-[ 857/1101  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.27 seconds), 1 items updated, 1101 evaluated
-AssetDatabase: script compilation time: 1.346151s
-Total cache size 62130420
-Total cache size after purge 62130420, took 00:00:00.1004690
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 64.8409ms
+ExitCode: 0 Duration: 0s438ms
+[ 863/1107  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.40 seconds), 1 items updated, 1107 evaluated
+AssetDatabase: script compilation time: 0.956163s
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.56 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.01 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.41 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.99 ms, found 5 plugins.
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.787 seconds
-Domain Reload Profiling: 5044ms
-	BeginReloadAssembly (307ms)
-		DisableScriptedObjects (26ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (834ms)
-		LoadAssemblies (473ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (224ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (3788ms)
+- Finished resetting the current domain, in  3.840 seconds
+Domain Reload Profiling: 5193ms
+	BeginReloadAssembly (394ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (175ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (835ms)
+		LoadAssemblies (455ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3842ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (2883ms)
-			ProcessInitializeOnLoadMethodAttributes (362ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (182ms)
-Starting new worker id: 0 with log in D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW0.log
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (3007ms)
+			ProcessInitializeOnLoadMethodAttributes (429ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Starting new worker id: 0 with log in C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=e5ab9e691fa43d245ae09938e672f6ff): Total: 7.331 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=d30c9791728b1374289c21df67d66cc3): Total: 7.126 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=4456 ms
-		Asset DB Callback time: managed=45 ms, native=68 ms
-		Scripting: domain reloads=1, domain reload time=1332 ms, compile time=1348 ms, other=80 ms
-		Project Asset Count: scripts=1566, non-scripts=3214
+		Asset DB Process Time: managed=0 ms, native=4565 ms
+		Asset DB Callback time: managed=47 ms, native=31 ms
+		Scripting: domain reloads=1, domain reload time=1443 ms, compile time=958 ms, other=81 ms
+		Project Asset Count: scripts=1566, non-scripts=3215
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 71.727ms
-	ApplyChangesToAssetFolders: 0.773ms
-	Scan: 143.293ms
-	Collect global state as custom dependencies: 3.321ms
-	CategorizeScriptCompilationAssets: 70.500ms
-	ProcessAssetsWithTransientArtifactChanges: 109.629ms
-	CategorizeAssets: 63.295ms
-	CompileScripts: 1347.598ms
-	ImportOutOfDateAssets: 3879.435ms (3813.257ms without children)
-		UnloadImportedAssets: 0.795ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.865ms
-		ImportSchedulerStart: 64.483ms
-	PostProcessAllAssets: 45.076ms
-		MonoPostProcessAllAssets: 45.017ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 22.779ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.805ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.228ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 1.067ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.790ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.420ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.406ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.352ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.271ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.250ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.240ms
-			SyncVS.PostprocessSyncProject 0.178ms
-	UnloadStreamsBegin: 3.399ms
-	PersistCurrentRevisions: 0.168ms
-	GenerateScriptTypeHashes: 2.715ms
-	GenerateScriptTypeSerializationHashes: 5.260ms
-	Untracked: 1587.949ms
+	InvokePackagesCallback: 34.170ms
+	ApplyChangesToAssetFolders: 0.985ms
+	Scan: 147.689ms
+	Collect global state as custom dependencies: 5.245ms
+	CategorizeScriptCompilationAssets: 82.003ms
+	ProcessAssetsWithTransientArtifactChanges: 106.975ms
+	CategorizeAssets: 80.743ms
+	CompileScripts: 957.847ms
+	ImportOutOfDateAssets: 3942.521ms (3869.018ms without children)
+		UnloadImportedAssets: 0.812ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.861ms
+		ImportSchedulerStart: 71.788ms
+	PostProcessAllAssets: 47.231ms
+		MonoPostProcessAllAssets: 47.158ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 16.345ms
+			SyncVS.PostprocessSyncProject 4.966ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.394ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.249ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.437ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.957ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.667ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.522ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.362ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.332ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.320ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.226ms
+	UnloadStreamsBegin: 4.153ms
+	PersistCurrentRevisions: 0.123ms
+	GenerateScriptTypeHashes: 3.337ms
+	GenerateScriptTypeSerializationHashes: 6.578ms
+	Untracked: 1708.714ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Scanning for USB devices : 4.295ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 14.514ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -401,939 +422,108 @@ GetVirtualKey: Could not map char: b (98) to any virtual key
 GetVirtualKey: Could not map char: b (98) to any virtual key
 GetVirtualKey: Could not map char: c (99) to any virtual key
 GetVirtualKey: Could not map char: u (117) to any virtual key
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7203 unused Assets / (7.1 MB). Loaded Objects now: 8128.
-Memory consumption went from 438.3 MB to 431.2 MB.
-Total: 16.170900 ms (FindLiveObjects: 0.842100 ms CreateObjectMapping: 3.557700 ms MarkObjects: 6.606200 ms  DeleteObjects: 5.159700 ms)
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Kipr.unity'
+	Deserialize:            12.860 ms
+	Integration:            300.111 ms
+	Integration of assets:  2.369 ms
+	Thread Wait Time:       0.846 ms
+	Total Operation Time:   316.186 ms
+Unloading 7205 unused Assets / (6.8 MB). Loaded Objects now: 8184.
+Memory consumption went from 436.7 MB to 429.9 MB.
+Total: 16.310000 ms (FindLiveObjects: 1.114300 ms CreateObjectMapping: 2.845500 ms MarkObjects: 8.309800 ms  DeleteObjects: 4.037400 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-[LAYOUT] About to save layout D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/user/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/IlyaKing/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-[Project] Loading completed in 14.679 seconds
-	Project init time: 				12.786 seconds
+[Project] Loading completed in 15.229 seconds
+	Project init time: 				11.969 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		2.725 seconds
-		Asset Database init time: 		0.413 seconds
-		Global illumination init time: 	0.003 seconds
-		Assemblies load time: 			1.218 seconds
-		Unity extensions init time: 	0.046 seconds
-		Asset Database refresh time: 	7.331 seconds
-	Scene opening time: 			1.726 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783673146113,"processId":13036,"projectLoad":14.6790624,"projectInit":12.7861405,"templateInit":0.0,"packageManagerInit":2.72514,"assetDatabaseInit":0.4133754,"globalIlluminationInit":0.0033747,"assembliesLoad":1.2177602,"unityExtensionsInit":0.0464807,"assetDatabaseRefresh":7.3311601,"sceneOpening":1.7261946}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783673146113,"processId":13036,"editorVersion":"6000.5.3f1 (c2eb47b3a2a9)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+		Package Manager init time: 		1.761 seconds
+		Asset Database init time: 		0.355 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.165 seconds
+		Unity extensions init time: 	0.048 seconds
+		Asset Database refresh time: 	7.127 seconds
+	Scene opening time: 			3.082 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783676015087,"processId":24064,"projectLoad":15.2288145,"projectInit":11.9688163,"templateInit":0.0,"packageManagerInit":1.7611373,"assetDatabaseInit":0.3550592,"globalIlluminationInit":0.0023938,"assembliesLoad":1.1647754,"unityExtensionsInit":0.0477731,"assetDatabaseRefresh":7.1267686,"sceneOpening":3.0818445}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783676015087,"processId":24064,"editorVersion":"6000.5.3f1 (c2eb47b3a2a9)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
 Worker ready: AssetImportWorkerHW0 0
-Asset Pipeline Refresh (id=62a9b19301458174fb9fac297f38f00c): Total: 0.125 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "4fh4hGp2"... (expires: 2026-07-10T10:05:22Z)
-Created GICache directory at C:/Users/user/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.019s, timestamps: [16.265 - 16.284]
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Project ID request failed, Reason: The requested URL returned error: 403 (403).
-Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/31959c1e-8824-4b36-aa93-33b06d99f255", HTTP error code 403
-.Asset Pipeline Refresh (id=7be82450d6f9a5f44a267faa5c964e04): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
+Asset Pipeline Refresh (id=c55029b3e37936d44a6be691f9734a7c): Total: 0.167 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Asset Pipeline Refresh (id=4579e2f72129bf34bb356f9d76a33795): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Created GICache directory at C:/Users/IlyaKing/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.026s, timestamps: [15.420 - 15.446]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "uOeHR2Y_"... (expires: 2026-07-10T10:49:43Z)
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 2243 ms
+Android Extension - Scanning For ADB Devices 215 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 193 ms
+UPID Received '31959c1e-8824-4b36-aa93-33b06d99f255'.
+Android Extension - Scanning For ADB Devices 191 ms
 TrimDiskCacheJob: Current cache size 0mb
-Asset Pipeline Refresh (id=a84740b91783d924f9028ec6bb5bc6bd): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=acfd9bfc7b6c0fc45bfa22dfb930b7b9): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=8c592a0069c570545bdc937b93f66570): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
 GetVirtualKey: Could not map char: x (120) to any virtual key
 GetVirtualKey: Could not map char: c (99) to any virtual key
 GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
 GetVirtualKey: Could not map char: d (100) to any virtual key
 GetVirtualKey: Could not map char: f (102) to any virtual key
 GetVirtualKey: Could not map char: f (102) to any virtual key
 GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
 GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-[Licensing::Client] Successfully resolved entitlement details
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-Starting new worker id: 1 with log in D:/Games/github/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: PreviewImporter -> (ImportResultId: '70c37a9ab9b2ef6447335ea926c3b642') in 0.0320582 seconds
-Opening scene 'Assets/Scenes/Kipr.unity'
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Kipr.unity'
-	Deserialize:            58.905 ms
-	Integration:            292.574 ms
-	Integration of assets:  2.432 ms
-	Thread Wait Time:       0.029 ms
-	Total Operation Time:   353.940 ms
-Unloading 60 unused Assets / (18.4 MB). Loaded Objects now: 9254.
-Memory consumption went from 0.61 GB to 0.59 GB.
-Total: 25.887300 ms (FindLiveObjects: 0.570700 ms CreateObjectMapping: 1.312300 ms MarkObjects: 16.697400 ms  DeleteObjects: 7.305000 ms)
-
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Starting new worker id: 1 with log in C:/Users/IlyaKing/Desktop/MyTalkingMellstroy/My_Talking_Mellstroy/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 109e9bdd0fcc649c5bc59085c35bdc83 - Path: Assets/Scenes - Importer: PreviewImporter -> (ImportResultId: '101fdcffec55c7bdff9e25d31f802448') in 0.0258041 seconds
+[Worker0] Imported GUID: 0220aab0833d04faeb927d84ca6cc40c - Path: Assets/Settings - Importer: PreviewImporter -> (ImportResultId: '620fe1d07e22aede09d33f57beba5d46') in 0.016271 seconds
+[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: '6369b197714f4eabc0138e4258f24438') in 0.1330614 seconds
 Worker ready: AssetImportWorkerHW1 1
-SpriteAtlasPacking completed in 0.005380 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            4.652 ms
-	Integration:            291.328 ms
-	Integration of assets:  0.050 ms
-	Thread Wait Time:       0.034 ms
-	Total Operation Time:   296.065 ms
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.281 ms
-	Integration:            239.112 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.036 ms
-	Total Operation Time:   240.431 ms
-Unloading 0 unused Assets / (169.3 KB). Loaded Objects now: 9200.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 18.474900 ms (FindLiveObjects: 0.506000 ms CreateObjectMapping: 1.137900 ms MarkObjects: 16.808000 ms  DeleteObjects: 0.022000 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-[Worker0] Imported GUID: 7c65b1766111e6a4ebf9f6b02353ae58 - Path: Assets/Scenes/SampleScene.unity - Importer: PreviewImporter -> (ImportResultId: 'f0488c2d231f585c39c3228c542204fd') in 0.0160353 seconds
-Opening scene 'Assets/Scenes/SampleScene.unity'
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            1.685 ms
-	Integration:            232.036 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.031 ms
-	Total Operation Time:   233.753 ms
-Unloading 3 unused Assets / (276.3 KB). Loaded Objects now: 9260.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 19.842100 ms (FindLiveObjects: 0.566800 ms CreateObjectMapping: 1.210400 ms MarkObjects: 18.007300 ms  DeleteObjects: 0.056600 ms)
-
-[Worker0] Imported GUID: 6decc665cc4c0ed48af609b8501a155a - Path: Assets/Sprites/Mellstroy_defolt.png - Importer: PreviewImporter -> (ImportResultId: '300045ac10b03eec4931c589c6e970ce') in 0.1849574 seconds
-[Worker1] Imported GUID: 0f3897d991683a045875256a3a32be3f - Path: Assets/Sprites/Mellstroy_happy.png - Importer: PreviewImporter -> (ImportResultId: '19e47eb26d54a5fad71248f1c079f292') in 0.191631 seconds
-Opening scene 'Assets/Scenes/Kipr.unity'
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Kipr.unity'
-	Deserialize:            1.055 ms
-	Integration:            234.168 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.037 ms
-	Total Operation Time:   235.261 ms
-Unloading 2 unused Assets / (141.6 KB). Loaded Objects now: 9266.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 19.110300 ms (FindLiveObjects: 0.555700 ms CreateObjectMapping: 1.219200 ms MarkObjects: 17.287800 ms  DeleteObjects: 0.046700 ms)
-
-Opening scene 'Assets/Scenes/Kipr.unity'
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Kipr.unity'
-	Deserialize:            1.068 ms
-	Integration:            229.149 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.032 ms
-	Total Operation Time:   230.251 ms
-Unloading 0 unused Assets / (22.7 KB). Loaded Objects now: 9266.
-Memory consumption went from 0.60 GB to 0.60 GB.
-Total: 18.752600 ms (FindLiveObjects: 0.522200 ms CreateObjectMapping: 1.125400 ms MarkObjects: 17.062500 ms  DeleteObjects: 0.041500 ms)
-
-[Worker0] Imported GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/Settings/DefaultVolumeProfile.asset - Importer: PreviewImporter -> (ImportResultId: 'f29a32ece216654734dd7a9c960e9c12') in 0.0147608 seconds
-[Worker1] Imported GUID: 2bcd2660ca9b64942af0de543d8d7100 - Path: Assets/Settings/InputSystem_Actions.inputactions - Importer: PreviewImporter -> (ImportResultId: 'b65a11f1c21e946e76f1fe4d657d723a') in 0.0178323 seconds
-[Worker1] Imported GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: PreviewImporter -> (ImportResultId: '3ba38bbc1b7203eed8dc52aa640cd5cf') in 0.0128707 seconds
-[Worker1] Imported GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset - Importer: PreviewImporter -> (ImportResultId: '9420dbfef1d2c852cdaa096c1c53a4d5') in 0.0129791 seconds
-[Worker0] Imported GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: PreviewImporter -> (ImportResultId: '6881cdafc17b6a1fb319962c8fef5d56') in 0.0760523 seconds
-[Worker1] Imported GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: PreviewImporter -> (ImportResultId: '6d97f5d84898b4af31d40525b5b954e9') in 0.0150013 seconds
-[Worker0] Imported GUID: 23e2797d63c9efb4cb2a7b6a2f70f9ce - Path: Assets/Sprites - Importer: PreviewImporter -> (ImportResultId: '2c9de993c8052c64e241d29aeb55a080') in 0.0160205 seconds
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
 GetVirtualKey: Could not map char: x (120) to any virtual key
 GetVirtualKey: Could not map char: c (99) to any virtual key
 GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
 GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
 GetVirtualKey: Could not map char: n (110) to any virtual key
 GetVirtualKey: Could not map char: g (103) to any virtual key
 GetVirtualKey: Could not map char: f (102) to any virtual key
 GetVirtualKey: Could not map char: f (102) to any virtual key
 GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Importing 'GUID: ce2ee7f8db5c3e1419f2e72bf536c695 - Path: Assets/Sprites/Gemini_Generated_Image_1xmuva1xmuva1xmu (1).png' with importer (TextureImporter)
-Imported 'GUID: ce2ee7f8db5c3e1419f2e72bf536c695' -> (Import Result ID: '940fa7bf337624371bb0366b290d2d9f') in 0.191 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=615bc4fb69f9782597b4d1547a53cefd DependenciesID=d6514f1069815fca0e5ee0c2d426af3e StaticDependenciesID=73db5d90b6b26e8023cd4d7875b3cd12 
-Refreshing native plugins compatible for Editor in 3.37 ms, found 5 plugins.
+Request Asset Garbage Collect because used heap size increased from 434.7 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (17.2 MB). Loaded Objects now: 9393.
+Memory consumption went from 0.67 GB to 0.66 GB.
+Total: 23.790500 ms (FindLiveObjects: 0.745000 ms CreateObjectMapping: 1.332200 ms MarkObjects: 15.942000 ms  DeleteObjects: 5.769400 ms)
 
-Asset Pipeline Refresh (id=0df7ac7de7e60194f8ddb06228fdb172): Total: 0.482 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=1 (actual=1, local cache=0, cache server=0)
-		Asset DB Process Time: managed=21 ms, native=316 ms
-		Asset DB Callback time: managed=135 ms, native=8 ms
-		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
-		Project Asset Count: scripts=1566, non-scripts=3215
-		Asset File Changes: new=1, changed=1, moved=0, deleted=0
-		Scan Filter Count: 0
-	ApplyChangesToAssetFolders: 0.196ms
-	Scan: 25.480ms
-	Collect global state as custom dependencies: 0.092ms
-	OnSourceAssetsModified: 0.837ms
-	ProcessAssetsWithTransientArtifactChanges: 0.223ms
-	CategorizeAssets: 22.905ms
-	ImportOutOfDateAssets: 244.523ms (10.176ms without children)
-		ImportManagerImport: 191.796ms (0.755ms without children)
-		UnloadImportedAssets: 0.180ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.622ms
-		ImportSchedulerStart: 41.699ms
-	PostProcessAllAssets: 134.472ms
-		XRBuildSystem.XRAssetImported 4.528ms
-		MonoPostProcessAllAssets: 129.312ms
-			AssetPostprocessor.OnPostprocessAllAssets 106.674ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.697ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.987ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.852ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.535ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.134ms
-			AssetProcessor.OnPostprocessAllAssets 0.869ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.807ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.763ms
-			MaterialPostprocessor.OnPostprocessAllAssets 0.645ms
-			AssetChangedListener.OnPostprocessAllAssets 0.580ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.531ms
-			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.491ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.470ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.466ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.462ms
-			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.395ms
-			PostProcessor.OnPostprocessAllAssets 0.331ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.318ms
-			AssetEvents.OnPostprocessAllAssets 0.284ms
-			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.283ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.223ms
-			PSDImportPostProcessor.OnPostprocessAllAssets 0.203ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.193ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.187ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.181ms
-			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.139ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.091ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.084ms
-	PostAssetChangesProfiler: 8.689ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.265ms
-	UnloadStreamsBegin: 2.076ms
-	PersistCurrentRevisions: 0.216ms
-	Untracked: 29.816ms
-
-[Worker1] Imported GUID: ce2ee7f8db5c3e1419f2e72bf536c695 - Path: Assets/Sprites/Gemini_Generated_Image_1xmuva1xmuva1xmu (1).png - Importer: PreviewImporter -> (ImportResultId: '97dbdbd998c75a369f35c83ecffedc71') in 0.0287696 seconds
-[Worker0] Imported GUID: ce2ee7f8db5c3e1419f2e72bf536c695 - Path: Assets/Sprites/Gemini_Generated_Image_1xmuva1xmuva1xmu (1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '991044e1dc98567759930b2551024f1f') in 0.1513222 seconds
-Asset Pipeline Refresh (id=f88627bab6899744fbe12ab0f7fb1ed1): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Refreshing native plugins compatible for Editor in 3.23 ms, found 5 plugins.
-Asset Pipeline Refresh (id=cf81f4c3ad7bd6644a904857f996b5d6): Total: 0.099 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=6946ef756a3df034b804c2483854c85d): Total: 0.013 seconds - Initiated by RefreshV2(ForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=8983e1c338957974f93a1d0e602d0906): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=fa20c498d74e08d42a5d95b2ef165ffe): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=7cfebca3430abc5448fde8ec2c66d98a): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png' with importer (TextureImporter)
-Imported 'GUID: 7969a613f682b20499fd70757155c47c' -> (Import Result ID: '93127baaada92eda117b8fb4ffd525ed') in 0.131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b190263b500ac6012905587575e2d2b7 DependenciesID=8e593ddb40bdfe32023a3243499513bd StaticDependenciesID=2e0369bac1a71485264da85bd0f40a33 
-Refreshing native plugins compatible for Editor in 3.26 ms, found 5 plugins.
-
-Asset Pipeline Refresh (id=c9db90e111ff01347b341238ea708755): Total: 0.311 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=1 (actual=1, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=242 ms
-		Asset DB Callback time: managed=4 ms, native=63 ms
-		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
-		Project Asset Count: scripts=1566, non-scripts=3215
-		Asset File Changes: new=1, changed=1, moved=0, deleted=0
-		Scan Filter Count: 0
-	ApplyChangesToAssetFolders: 0.115ms
-	Scan: 17.374ms
-	OnSourceAssetsModified: 0.060ms
-	ProcessAssetsWithTransientArtifactChanges: 0.106ms
-	CategorizeAssets: 20.255ms
-	ImportOutOfDateAssets: 180.448ms (8.637ms without children)
-		ImportManagerImport: 131.813ms (0.293ms without children)
-		UnloadImportedAssets: 0.198ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.627ms
-		ImportSchedulerStart: 39.134ms
-	PostProcessAllAssets: 2.593ms
-		XRBuildSystem.XRAssetImported 0.532ms
-		MonoPostProcessAllAssets: 1.924ms
-			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.591ms
-			AssetPostprocessor.OnPostprocessAllAssets 0.568ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.176ms
-			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.058ms
-			SyncVS.PostprocessSyncProject 0.054ms
-	PostAssetChangesProfiler: 65.923ms
-	GatherAllCurrentPrimaryImportResultRevisions: 0.189ms
-	PersistCurrentRevisions: 0.214ms
-	Untracked: 24.096ms
-
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: '7808481b50f84c4cc8ac59aa91ba0f05') in 0.0337135 seconds
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e728d012790d50f8982863f321a017a8') in 0.0220976 seconds
-Asset Pipeline Refresh (id=ec2e346b9045ce7408ab95285d3f58d2): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Importing 'GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png' with importer (TextureImporter)
-Imported 'GUID: 7969a613f682b20499fd70757155c47c' -> (Import Result ID: '59401cc408209d863ff52d40846addda') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb23c9e4b48b96c6d7de1e3581008786 DependenciesID=3836d4619656ccfb535e1ba073ba82bf StaticDependenciesID=f493c848fec557c4489e2aac2a34cec7 
-Refreshing native plugins compatible for Editor in 3.29 ms, found 5 plugins.
-Asset Pipeline Refresh (id=3e660611cf565e94591292d70bc3609d): Total: 0.171 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: '394e85ef0ccefb18ad06464f66e5fe94') in 0.0433721 seconds
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0b49ac3059bf0e8bea36ea6e1de33299') in 0.0213789 seconds
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-Asset Pipeline Refresh (id=b5d3a6c13dc1cf94a8e4ad3f227f93f7): Total: 0.003 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png' with importer (TextureImporter)
-Imported 'GUID: 7969a613f682b20499fd70757155c47c' -> (Import Result ID: '39a63c36474471737aa7731252347b0d') in 0.070 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08728384d518fdcd4db11c7e170ffc88 DependenciesID=96d4611cb2ced3f694bc0cd22c98aa6e StaticDependenciesID=f1d1fabd6e70d8ff1cb8063acf911282 
-Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
-Asset Pipeline Refresh (id=c8e45194574335e4a85094e21ae36744): Total: 0.180 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: 'b71b380b258abbf9f3496f2ff421553c') in 0.0415343 seconds
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17ef5fe968383b0d3f35cf4af9ac8684') in 0.0240348 seconds
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-The operation "SoftDelete" cannot be executed because the selection is a root folder or an immutable asset.
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Refreshing native plugins compatible for Editor in 3.36 ms, found 5 plugins.
-Asset Pipeline Refresh (id=720f6719ace6c38448a606939d3efb8c): Total: 0.097 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=810db085690efb24fb063503a12c933f): Total: 0.014 seconds - Initiated by RefreshV2(ForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Importing 'GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png' with importer (TextureImporter)
-Imported 'GUID: 7969a613f682b20499fd70757155c47c' -> (Import Result ID: '93127baaada92eda117b8fb4ffd525ed') in 0.128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b190263b500ac6012905587575e2d2b7 DependenciesID=8e593ddb40bdfe32023a3243499513bd StaticDependenciesID=2e0369bac1a71485264da85bd0f40a33 
-Refreshing native plugins compatible for Editor in 3.17 ms, found 5 plugins.
-Asset Pipeline Refresh (id=458605ddb1ea81347b912a9d29f2c121): Total: 0.251 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=0900f3d79857736489bcbb55f7ac900f): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=eb864915b4125664dad88f505e7f356a): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-Asset Pipeline Refresh (id=aeadd8f6e159a93479a51f1183967871): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-Asset Pipeline Refresh (id=d43b08be03dab7a4ca380e85556a9dd0): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png' with importer (TextureImporter)
-Imported 'GUID: 7969a613f682b20499fd70757155c47c' -> (Import Result ID: '0e8823e0b2cc44a2b814bbcb4d2c65f2') in 0.071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=033d49563ef98c14c5adef0f2c0afa9f DependenciesID=8b744a796ac51d1d991b2768eb6c0a40 StaticDependenciesID=b4d03112d1e59b774e9b8c69c4ad821b 
-Refreshing native plugins compatible for Editor in 3.22 ms, found 5 plugins.
-Asset Pipeline Refresh (id=588c61f47840ef4439cdb43127c0cadd): Total: 0.184 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: PreviewImporter -> (ImportResultId: '0ada0c7ec880036e4a75445e3058097d') in 0.0512039 seconds
-[Worker0] Imported GUID: 7969a613f682b20499fd70757155c47c - Path: Assets/Sprites/Gemini_Generated_Image_e5w3dxe5w3dxe5w3 (1).png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09701f76cffb16531dd7c2c63f90a7be') in 0.0241706 seconds
-GetVirtualKey: Could not map char: z (122) to any virtual key
-GetVirtualKey: Could not map char: y (121) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: V (86) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: i (105) to any virtual key
-GetVirtualKey: Could not map char: l (108) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: k (107) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: p (112) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: r (114) to any virtual key
-GetVirtualKey: Could not map char: P (80) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: g (103) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: f (102) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: a (97) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: u (117) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: o (111) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: s (115) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: b (98) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-GetVirtualKey: Could not map char: x (120) to any virtual key
-GetVirtualKey: Could not map char: c (99) to any virtual key
-GetVirtualKey: Could not map char: v (118) to any virtual key
-GetVirtualKey: Could not map char: d (100) to any virtual key
-GetVirtualKey: Could not map char: n (110) to any virtual key
-SpriteAtlasPacking completed in 0.007824 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.064 ms
-	Integration:            279.874 ms
-	Integration of assets:  0.033 ms
-	Thread Wait Time:       0.010 ms
-	Total Operation Time:   280.982 ms
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.549 ms
-	Integration:            247.517 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.038 ms
-	Total Operation Time:   248.105 ms
-Unloading 41 unused Assets / (332.6 KB). Loaded Objects now: 9372.
-Memory consumption went from 0.65 GB to 0.65 GB.
-Total: 28.556500 ms (FindLiveObjects: 0.532200 ms CreateObjectMapping: 1.265100 ms MarkObjects: 26.657200 ms  DeleteObjects: 0.100600 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-SpriteAtlasPacking completed in 0.006004 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.893 ms
-	Integration:            241.903 ms
-	Integration of assets:  0.024 ms
-	Thread Wait Time:       0.031 ms
-	Total Operation Time:   242.851 ms
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.591 ms
-	Integration:            243.411 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.038 ms
-	Total Operation Time:   244.042 ms
-Unloading 0 unused Assets / (382.8 KB). Loaded Objects now: 9379.
-Memory consumption went from 0.65 GB to 0.65 GB.
-Total: 21.953200 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 1.147400 ms MarkObjects: 20.199700 ms  DeleteObjects: 0.083600 ms)
-
-SpriteAtlasPacking completed in 0.005533 sec
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.005 ms
-	Integration:            244.972 ms
-	Integration of assets:  0.030 ms
-	Thread Wait Time:       0.042 ms
-	Total Operation Time:   246.048 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.565 ms
-	Integration:            247.415 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.035 ms
-	Total Operation Time:   248.016 ms
-Unloading 0 unused Assets / (332.2 KB). Loaded Objects now: 9379.
-Memory consumption went from 0.64 GB to 0.64 GB.
-Total: 22.185800 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 1.171800 ms MarkObjects: 20.434300 ms  DeleteObjects: 0.055300 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
 Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity' with importer (DefaultImporter)
-Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: 'fe3e0797b0fbd089e88852d8715b562c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=dac0adfaf570de8cf9b9a023b5e20b41 DependenciesID=4892d329470b0ef4ddb7c6a27000973c StaticDependenciesID=59ec314fb21f2dab142d2bc8f11d0d60 
-Refreshing native plugins compatible for Editor in 3.34 ms, found 5 plugins.
-Asset Pipeline Refresh (id=aa0b49e24c544cf4bb724ebcc4bd02ab): Total: 0.104 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e8a10855e1fcd2d76d49f48d9e94017') in 0.0206607 seconds
-Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity' with importer (DefaultImporter)
-Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '906a85848e0e70271b39500ae2588c52') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=dac0adfaf570de8cf9b9a023b5e20b41 DependenciesID=2582290735d22c37c8307f229e7688ec StaticDependenciesID=ddc4c582c456a0562ee47d97a87645ac 
-Refreshing native plugins compatible for Editor in 3.51 ms, found 5 plugins.
-Asset Pipeline Refresh (id=9c5a197a227d41e42b48a2b0839437f0): Total: 0.095 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b29e881f3d2afb09512d67b57b1df86f') in 0.0189736 seconds
-MonoPathRemapper: Attempts to remap: 61780; Successful remaps: 22874
+Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '3f31cecb867c567c3271c1c53b555dbd') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=dac0adfaf570de8cf9b9a023b5e20b41 DependenciesID=401e91ee7297ddfeda3a39023cb17324 StaticDependenciesID=5ad20343dae9bd4c430972cf663c379c 
+Refreshing native plugins compatible for Editor in 4.54 ms, found 5 plugins.
+Asset Pipeline Refresh (id=0958831030d6a02468513e88de0f899b): Total: 0.237 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Kipr.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd714b506e1790c52729b9624d193bd2f') in 0.0759293 seconds
+MonoPathRemapper: Attempts to remap: 57681; Successful remaps: 22874
 Serialized file version minimum: 22, current 23
-[LAYOUT] About to save layout D:\Games\github\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/user/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/IlyaKing/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0,0512193 seconds.
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-user-6000.5.3-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-user-6000.5.3 channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-IlyaKing-6000.5.3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-IlyaKing-6000.5.3 channel disconnected successfully.
 Shut down.
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-debugger-agent: Unable to listen on 4128
+debugger-agent: Unable to listen on 4872
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1783675006637,"processId":13036,"allocatedMemory":53223847,"memoryLabels":[{"Default":238961},{"Permanent":15516},{"NewDelete":70213},{"Thread":4205688},{"Manager":818312},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":866423},{"Material":1424},{"GfxDevice":114488},{"GfxThread":1536},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":266008},{"Input":45280},{"JobScheduler":256},{"TextLib":12694},{"Mono":48},{"MonoCode":832},{"ScriptingNativeRuntime":1530796},{"BaseObject":1687777},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":129215},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9758},{"StaticString":3808},{"Utility":2672626},{"Curl":1492},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6808},{"WebRequest":11042},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33084428},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1618088},{"CoreStats":13688},{"Identifiers":6768},{"Gui":542},{"EditorUtility":223179},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5054529},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36215},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3478},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1783676525063,"processId":24064,"allocatedMemory":52533806,"memoryLabels":[{"Default":228569},{"Permanent":15516},{"NewDelete":66893},{"Thread":4205688},{"Manager":820232},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":858975},{"Material":1424},{"GfxDevice":69464},{"GfxThread":1536},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":258504},{"Input":45280},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1620644},{"BaseObject":1678513},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":36676},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9831},{"StaticString":3808},{"Utility":2673450},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":21037},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":10616},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33084620},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1017472},{"CoreStats":13688},{"Identifiers":6768},{"Gui":496},{"EditorUtility":203694},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5055212},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35346},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
