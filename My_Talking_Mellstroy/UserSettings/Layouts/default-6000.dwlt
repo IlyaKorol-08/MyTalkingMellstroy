@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 43
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 44
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 45
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -699,38 +699,41 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_rawData: 568105584918843118
       m_LastClickedID:
         m_rawData: 0
       m_ExpandedIDs:
-      - m_rawData: 568105589213707692
-      - m_rawData: 568105589213707954
-      - m_rawData: 568105589213707988
-      - m_rawData: 568105589213723338
-      - m_rawData: 568105589213723362
-      - m_rawData: 568105589213723386
-      - m_rawData: 568105589213723410
-      - m_rawData: 568105589213723586
-      - m_rawData: 568105589213723592
-      - m_rawData: 568105589213723900
-      - m_rawData: 568105589213723908
-      - m_rawData: 568105589213734286
-      - m_rawData: 568105589213735994
-      - m_rawData: 568105589213736112
-      - m_rawData: 568105589213736234
-      - m_rawData: 568105589213736608
-      - m_rawData: 568105589213750612
-      - m_rawData: 568105589213750804
-      - m_rawData: 568105589213754676
-      - m_rawData: 568105589213754828
-      - m_rawData: 568105589213755256
-      - m_rawData: 568105584918842250
-      - m_rawData: 568105584918842278
-      - m_rawData: 568105584918842888
-      - m_rawData: 568105584918842910
-      - m_rawData: 568105584918842916
-      - m_rawData: 568105584918843734
-      - m_rawData: 568105584918843756
+      - m_rawData: 568105589213744510
+      - m_rawData: 568105589213744634
+      - m_rawData: 568105589213745658
+      - m_rawData: 568105589213747110
+      - m_rawData: 568105589213747980
+      - m_rawData: 568105589213748762
+      - m_rawData: 568105589213750592
+      - m_rawData: 568105589213750716
+      - m_rawData: 568105589213751524
+      - m_rawData: 568105589213753154
+      - m_rawData: 568105589213753234
+      - m_rawData: 568105589213753350
+      - m_rawData: 568105589213753570
+      - m_rawData: 568105589213754970
+      - m_rawData: 568105589213755246
+      - m_rawData: 568105589213755386
+      - m_rawData: 568105589213756042
+      - m_rawData: 568105584918843444
+      - m_rawData: 568105584918844052
+      - m_rawData: 568105584918844084
+      - m_rawData: 568105584918844358
+      - m_rawData: 568105584918844382
+      - m_rawData: 568105584918844416
+      - m_rawData: 568105584918844438
+      - m_rawData: 568105584918844460
+      - m_rawData: 568105584918844500
+      - m_rawData: 568105584918845156
+      - m_rawData: 568105584918845486
+      - m_rawData: 568105584918845570
+      - m_rawData: 568105584918846306
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1610,7 +1613,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/icon_of_game
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1620,7 +1623,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/icon_of_game
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
   m_LockTracker:
@@ -1629,12 +1632,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_rawData: 568105584918845454
+    - m_rawData: 568105584918842750
     m_LastClickedID:
-      m_rawData: 568105584918845454
+      m_rawData: 568105584918842750
     m_ExpandedIDs:
     - m_rawData: 0
-    - m_rawData: 568105584918842370
+    - m_rawData: 568105584918842454
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1668,7 +1671,7 @@ MonoBehaviour:
       m_rawData: 0
     m_ExpandedIDs:
     - m_rawData: 0
-    - m_rawData: 568105584918842370
+    - m_rawData: 568105584918842454
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1696,9 +1699,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
+    m_SelectedInstanceIDs:
+    - m_rawData: 568105584918843118
     m_LastClickedEntityId:
-      m_rawData: 0
+      m_rawData: 568105584918843118
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_rawData: 0
@@ -1827,4 +1831,4 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_rawData: 568105584918843680
+    m_rawData: 568105584918843278
