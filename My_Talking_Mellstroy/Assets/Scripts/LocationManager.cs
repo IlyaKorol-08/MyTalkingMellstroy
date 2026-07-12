@@ -129,6 +129,9 @@ public class LocationManager : MonoBehaviour
 
         UpdateMinigameButton();
 
+        // ← ДОБАВЬТЕ ЭТУ СТРОКУ: обновляем видимость кнопок потребностей
+        UpdatePetNeedsButtons();
+
         yield return new WaitForSeconds(0.1f);
 
         yield return StartCoroutine(FadeAlpha(fadeImage, 1f, 0f, fadeDuration));
@@ -136,6 +139,18 @@ public class LocationManager : MonoBehaviour
         fadeScreen.SetActive(false);
         UpdateButtons();
         IsTransitioning = false;
+    }
+
+    // ← ДОБАВЬТЕ ЭТОТ МЕТОД
+    void UpdatePetNeedsButtons()
+    {
+        // Находим PetNeeds в сцене
+        PetNeeds petNeeds = FindObjectOfType<PetNeeds>();
+        if (petNeeds != null)
+        {
+            petNeeds.UpdateButtonVisibility();
+            Debug.Log("Обновлена видимость кнопок потребностей");
+        }
     }
 
     void UpdateMinigameButton()

@@ -1,21 +1,21 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
 public class SlotMachine : MonoBehaviour
 {
-    [Header("��������")]
+    [Header("Барабаны")]
     public Image[] reels;
 
-    [Header("�������")]
+    [Header("Символы")]
     public Sprite[] symbols;
 
-    [Header("�����")]
+    [Header("Ручка")]
     public Button handleButton;
     public float handleRotationAngle = 45f;
 
-    [Header("��������� ����")]
+    [Header("Настройки игры")]
     public float spinDuration = 2f;
     public int prizeAmount = 100;
 
@@ -23,7 +23,7 @@ public class SlotMachine : MonoBehaviour
     public TextMeshProUGUI prizeText;
     public GameObject winAnimation;
 
-    [Header("�����")]
+    [Header("Звуки")]
     public AudioClip spinSound;
     public AudioClip winSound;
 
@@ -31,9 +31,23 @@ public class SlotMachine : MonoBehaviour
     private bool isSpinning = false;
     private int[] currentSymbols = new int[3];
 
+    // ← PetNeeds теперь private, находится автоматически
+    private PetNeeds petNeeds;
+
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
+
+        // Автоматически находим PetNeeds
+        petNeeds = FindObjectOfType<PetNeeds>();
+        if (petNeeds != null)
+        {
+            Debug.Log("PetNeeds найден автоматически!");
+        }
+        else
+        {
+            Debug.LogWarning("PetNeeds не найден в сцене!");
+        }
 
         for (int i = 0; i < reels.Length; i++)
         {
@@ -143,13 +157,20 @@ public class SlotMachine : MonoBehaviour
 
         if (!isWin)
         {
-            Debug.Log("��� ��������. ���������� ��� ���!");
+            Debug.Log("Нет выигрыша. Попробуйте ещё раз!");
+        }
+
+        // Пополнение игривости за каждый спин
+        if (petNeeds != null)
+        {
+            petNeeds.AddPlayfulness(15f);
+            Debug.Log("Игривость пополнена на 15%!");
         }
     }
 
     void ShowWin(int amount)
     {
-        Debug.Log($"�������: {amount} �����!");
+        Debug.Log($"Выигрыш: {amount} монет!");
 
         if (winSound != null) audioSource.PlayOneShot(winSound);
 

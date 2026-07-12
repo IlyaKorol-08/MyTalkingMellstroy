@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 338}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 43
+  controlID: 94
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 95
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 96
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 447
     height: 711
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -699,65 +699,69 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_rawData: 568105584918842794
+      m_SelectedIDs: []
       m_LastClickedID:
         m_rawData: 0
       m_ExpandedIDs:
-      - m_rawData: 568105589213713862
-      - m_rawData: 568105589213714814
-      - m_rawData: 568105589213716190
-      - m_rawData: 568105589213716816
-      - m_rawData: 568105589213717156
-      - m_rawData: 568105589213717786
-      - m_rawData: 568105589213718420
-      - m_rawData: 568105589213718550
-      - m_rawData: 568105589213719044
-      - m_rawData: 568105589213721036
-      - m_rawData: 568105589213721166
-      - m_rawData: 568105589213722068
-      - m_rawData: 568105589213722244
-      - m_rawData: 568105589213725644
-      - m_rawData: 568105589213725916
-      - m_rawData: 568105589213725936
-      - m_rawData: 568105589213725978
-      - m_rawData: 568105589213726960
-      - m_rawData: 568105589213727630
-      - m_rawData: 568105589213727760
-      - m_rawData: 568105589213728778
-      - m_rawData: 568105589213728908
-      - m_rawData: 568105589213729158
-      - m_rawData: 568105589213729368
-      - m_rawData: 568105589213730004
-      - m_rawData: 568105589213731504
-      - m_rawData: 568105589213739414
-      - m_rawData: 568105589213741274
-      - m_rawData: 568105589213753578
-      - m_rawData: 568105589213753710
-      - m_rawData: 568105589213754118
-      - m_rawData: 568105589213754310
-      - m_rawData: 568105589213754472
-      - m_rawData: 568105589213754810
-      - m_rawData: 568105589213754930
-      - m_rawData: 568105589213756036
-      - m_rawData: 568105584918842818
-      - m_rawData: 568105584918843586
-      - m_rawData: 568105584918843978
-      - m_rawData: 568105584918844086
-      - m_rawData: 568105584918844650
-      - m_rawData: 568105584918845504
-      - m_rawData: 568105584918845966
-      - m_rawData: 568105584918846166
-      - m_rawData: 568105584918850304
-      - m_rawData: 568105584918850710
-      - m_rawData: 568105584918851092
-      - m_rawData: 568105584918851190
-      - m_rawData: 568105584918852714
-      - m_rawData: 568105584918852724
-      - m_rawData: 568105584918853814
-      - m_rawData: 568105584918853940
-      - m_rawData: 568105584918853948
-      - m_rawData: 568105584918854852
+      - m_rawData: 568105589213722490
+      - m_rawData: 568105589213722766
+      - m_rawData: 568105589213722778
+      - m_rawData: 568105589213722834
+      - m_rawData: 568105589213732978
+      - m_rawData: 568105589213733108
+      - m_rawData: 568105589213738832
+      - m_rawData: 568105589213740024
+      - m_rawData: 568105589213740174
+      - m_rawData: 568105589213740228
+      - m_rawData: 568105589213740386
+      - m_rawData: 568105589213741712
+      - m_rawData: 568105589213741864
+      - m_rawData: 568105589213742016
+      - m_rawData: 568105589213742168
+      - m_rawData: 568105589213742328
+      - m_rawData: 568105589213742866
+      - m_rawData: 568105589213743078
+      - m_rawData: 568105589213745710
+      - m_rawData: 568105589213746504
+      - m_rawData: 568105589213746536
+      - m_rawData: 568105589213747384
+      - m_rawData: 568105589213747416
+      - m_rawData: 568105589213749874
+      - m_rawData: 568105589213749906
+      - m_rawData: 568105589213752070
+      - m_rawData: 568105589213752102
+      - m_rawData: 568105589213753724
+      - m_rawData: 568105589213753756
+      - m_rawData: 568105589213755502
+      - m_rawData: 568105589213756042
+      - m_rawData: 568105584918842994
+      - m_rawData: 568105584918844060
+      - m_rawData: 568105584918844074
+      - m_rawData: 568105584918844088
+      - m_rawData: 568105584918844104
+      - m_rawData: 568105584918844186
+      - m_rawData: 568105584918844212
+      - m_rawData: 568105584918844274
+      - m_rawData: 568105584918844284
+      - m_rawData: 568105584918844308
+      - m_rawData: 568105584918844388
+      - m_rawData: 568105584918844414
+      - m_rawData: 568105584918844454
+      - m_rawData: 568105584918846544
+      - m_rawData: 568105584918846668
+      - m_rawData: 568105584918846710
+      - m_rawData: 568105584918846772
+      - m_rawData: 568105584918846786
+      - m_rawData: 568105584918846806
+      - m_rawData: 568105584918846886
+      - m_rawData: 568105584918846912
+      - m_rawData: 568105584918850044
+      - m_rawData: 568105584918850102
+      - m_rawData: 568105584918850226
+      - m_rawData: 568105584918850268
+      - m_rawData: 568105584918850330
+      - m_rawData: 568105584918850364
+      - m_rawData: 568105584918850470
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1656,7 +1660,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sprites
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1666,7 +1670,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 75
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sprites
   m_LastFoldersGridSize: 75
   m_LastProjectPath: C:\Users\IlyaKing\Desktop\MyTalkingMellstroy\My_Talking_Mellstroy
   m_LockTracker:
@@ -1675,12 +1679,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 36}
     m_SelectedIDs:
-    - m_rawData: 568105584918842784
+    - m_rawData: 568105584918842796
     m_LastClickedID:
-      m_rawData: 568105584918842784
+      m_rawData: 568105584918842796
     m_ExpandedIDs:
     - m_rawData: 0
-    - m_rawData: 568105584918842488
+    - m_rawData: 568105584918842694
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1714,7 +1718,7 @@ MonoBehaviour:
       m_rawData: 0
     m_ExpandedIDs:
     - m_rawData: 0
-    - m_rawData: 568105584918842488
+    - m_rawData: 568105584918842694
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1742,10 +1746,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_rawData: 568105584918842794
+    m_SelectedInstanceIDs: []
     m_LastClickedEntityId:
-      m_rawData: 568105584918842794
+      m_rawData: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_rawData: 0
@@ -1779,7 +1782,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_EntityId:
