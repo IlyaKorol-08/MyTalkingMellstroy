@@ -1,20 +1,19 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MinigameButton : MonoBehaviour
 {
     [Header("Настройки")]
-    public int minigameSceneIndex = 1; // Индекс сцены мини-игры (из Build Settings)
+    public int minigameSceneIndex = 1;
 
-    [Header("Fade эффект (опционально)")]
+    [Header("Fade эффект")]
     public GameObject fadeScreen;
     public float fadeDuration = 0.5f;
 
     private void Start()
     {
-        // Находим кнопку и добавляем обработчик
-        UnityEngine.UI.Button button = GetComponent<UnityEngine.UI.Button>();
+        Button button = GetComponent<Button>();
         if (button != null)
         {
             button.onClick.AddListener(StartMinigame);
@@ -40,7 +39,6 @@ public class MinigameButton : MonoBehaviour
         Image fadeImage = fadeScreen.GetComponent<Image>();
         fadeScreen.SetActive(true);
 
-        // Появление белого экрана
         float elapsed = 0f;
         while (elapsed < fadeDuration)
         {
@@ -52,7 +50,6 @@ public class MinigameButton : MonoBehaviour
             yield return null;
         }
 
-        // Загрузка сцены
         SceneManager.LoadScene(minigameSceneIndex);
     }
 }

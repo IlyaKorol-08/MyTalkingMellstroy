@@ -1,4 +1,4 @@
-using UnityEngine;
+п»їusing UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -6,24 +6,25 @@ public class LocationManager : MonoBehaviour
 {
     public static bool IsTransitioning { get; private set; }
     public static string SavedLocationName = "Location_kipr";
+    public static bool IsReturningFromMinigame = false;
 
-    [Header("Все локации")]
+    [Header("Р’СЃРµ Р»РѕРєР°С†РёРё (4 РѕР±СЉРµРєС‚Р°)")]
     public GameObject[] allLocations;
 
-    [Header("Кнопки")]
+    [Header("Р’СЃРµ РєРЅРѕРїРєРё (4 РєРЅРѕРїРєРё РІ С‚РѕРј Р¶Рµ РїРѕСЂСЏРґРєРµ)")]
     public Button[] allButtons;
 
-    [Header("Персонаж")]
+    [Header("РџРµСЂСЃРѕРЅР°Р¶")]
     public PetInteraction petCharacter;
 
-    [Header("Fade экран")]
+    [Header("Fade СЌРєСЂР°РЅ")]
     public GameObject fadeScreen;
     public float fadeDuration = 0.5f;
 
-    [Header("Кнопка мини-игры")]
-    public GameObject minigameButton; // ? Добавьте это поле
+    [Header("РљРЅРѕРїРєР° РјРёРЅРё-РёРіСЂС‹")]
+    public GameObject minigameButton;
 
-    [Header("Цвета кнопок")]
+    [Header("Р¦РІРµС‚Р° РєРЅРѕРїРѕРє")]
     public Color activeColor = new Color(1f, 0.8f, 0f, 1f);
     public Color inactiveColor = Color.white;
 
@@ -44,25 +45,68 @@ public class LocationManager : MonoBehaviour
             {
                 loc.SetActive(true);
                 currentLocation = loc;
+                Debug.Log("Р—Р°РіСЂСѓР¶РµРЅР° Р»РѕРєР°С†РёСЏ: " + loc.name);
             }
         }
 
         for (int i = 0; i < allButtons.Length; i++)
         {
             int index = i;
-            allButtons[i].onClick.AddListener(() => StartTransition(allLocations[index]));
+            allButtons[i].onClick.AddListener(() =>
+            {
+                Debug.Log("РќР°Р¶Р°С‚Р° РєРЅРѕРїРєР°: " + allLocations[index].name);
+                StartTransition(allLocations[index]);
+            });
         }
 
-        // Показываем/скрываем кнопку мини-игры
         UpdateMinigameButton();
-
         UpdateButtons();
+
+        // Р•СЃР»Рё РІРµСЂРЅСѓР»РёСЃСЊ РёР· РјРёРЅРё-РёРіСЂС‹, Р·Р°РїСѓСЃРєР°РµРј fade-in
+        if (IsReturningFromMinigame)
+        {
+            IsReturningFromMinigame = false;
+            StartCoroutine(FadeInFromMinigame());
+        }
+    }
+
+    IEnumerator FadeInFromMinigame()
+    {
+        Image fadeImage = fadeScreen.GetComponent<Image>();
+        fadeScreen.SetActive(true);
+
+        Color color = fadeImage.color;
+        color.a = 1f;
+        fadeImage.color = color;
+
+        IsTransitioning = true;
+
+        float elapsed = 0f;
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / fadeDuration);
+            color.a = Mathf.Lerp(1f, 0f, t);
+            fadeImage.color = color;
+            yield return null;
+        }
+
+        color.a = 0f;
+        fadeImage.color = color;
+
+        fadeScreen.SetActive(false);
+        IsTransitioning = false;
     }
 
     void StartTransition(GameObject newLocation)
     {
-        if (IsTransitioning || newLocation == currentLocation) return;
+        if (IsTransitioning || newLocation == currentLocation)
+        {
+            Debug.Log("пёЏРџРµСЂРµС…РѕРґ РЅРµРІРѕР·РјРѕР¶РµРЅ");
+            return;
+        }
 
+        Debug.Log("РќР°С‡РёРЅР°РµРј РїРµСЂРµС…РѕРґ РІ: " + newLocation.name);
         IsTransitioning = true;
         StartCoroutine(FadeTransition(newLocation));
     }
@@ -81,8 +125,8 @@ public class LocationManager : MonoBehaviour
         currentLocation = newLocation;
 
         SavedLocationName = newLocation.name;
+        Debug.Log("РџРµСЂРµС€Р»Рё РІ: " + newLocation.name);
 
-        // Обновляем видимость кнопки мини-игры
         UpdateMinigameButton();
 
         yield return new WaitForSeconds(0.1f);
@@ -94,16 +138,12 @@ public class LocationManager : MonoBehaviour
         IsTransitioning = false;
     }
 
-    // Новый метод для управления кнопкой мини-игры
     void UpdateMinigameButton()
     {
         if (minigameButton != null)
         {
-            // Показываем кнопку только если текущая локация - Кипр
             bool isKipr = (currentLocation != null && currentLocation.name == "Location_kipr");
             minigameButton.SetActive(isKipr);
-
-            Debug.Log("Кнопка мини-игры: " + (isKipr ? "видна" : "скрыта"));
         }
     }
 

@@ -32,7 +32,7 @@ public class PetInteraction : MonoBehaviour
 
     void Update()
     {
-        // 🔒 ИГНОРИРУЕМ ВВОД ВО ВРЕМЯ ПЕРЕХОДА МЕЖДУ ЛОКАЦИЯМИ
+        // ИГНОРИРУЕМ ВВОД ВО ВРЕМЯ ПЕРЕХОДА МЕЖДУ ЛОКАЦИЯМИ
         if (LocationManager.IsTransitioning) return;
 
         if (Input.GetMouseButtonDown(0))
@@ -62,7 +62,7 @@ public class PetInteraction : MonoBehaviour
         }
         else
         {
-            dragDistance = -1f; // Сброс при отпускании
+            dragDistance = -1f;
         }
     }
 
@@ -83,46 +83,20 @@ public class PetInteraction : MonoBehaviour
         isTouched = false;
     }
 
-    public void ForceResetToNormal()
+    public void ForceReset()
     {
-        // Останавливаем корутину возврата если она есть
-        if (revertCoroutine != null)
-        {
-            StopCoroutine(revertCoroutine);
-        }
-
-        // Сбрасываем спрайт на нормальный
-        if (normalSprite != null && spriteRenderer != null)
-        {
-            spriteRenderer.sprite = normalSprite;
-        }
-
         isTouched = false;
         dragDistance = -1f;
 
-        Debug.Log("Персонаж сброшен в нормальное состояние");
-    }
-
-    public void ForceReset()
-    {
-        Debug.Log("ForceReset вызван!");
-
-        // Останавливаем корутину возврата
         if (revertCoroutine != null)
         {
             StopCoroutine(revertCoroutine);
             revertCoroutine = null;
         }
 
-        // Сбрасываем флаги
-        isTouched = false;
-        dragDistance = -1f;
-
-        // Возвращаем обычный спрайт
         if (normalSprite != null && spriteRenderer != null)
         {
             spriteRenderer.sprite = normalSprite;
-            Debug.Log("Спрайт возвращён в normal");
         }
     }
 }
